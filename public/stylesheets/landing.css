@@ -31,8 +31,8 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background-size: cover;
-  background-position: 50% 50%;
+  background-size: auto; /* cover */
+  background-position:  50% 50%;
   background-repeat: no-repeat;
   opacity: 0;
   z-index: 0;
@@ -40,22 +40,22 @@ body {
 }
 
 .slideshow li:nth-child(1) { 
-  background-image: url(http://i.imgur.com/K3mPv14.jpg) 
+  background-image: url(https://scontent-sea1-1.cdninstagram.com/t51.2885-15/s480x480/e35/20066771_1976648755953016_8497944965274402816_n.jpg?ig_cache_key=MTU2MDQxNzU1NzA3MzAxMDAzMg%3D%3D.2) 
 }
 .slideshow li:nth-child(2) { 
-  background-image: url(http://i.imgur.com/SBEmFpv.jpg);
+  background-image: url(https://scontent-sea1-1.cdninstagram.com/t51.2885-15/s480x480/e35/c225.0.629.629/19985591_226223694567218_4249578098795741184_n.jpg?ig_cache_key=MTU2MDQzMjEzMjM2MzEzNTA2OA%3D%3D.2.c);
   animation-delay: 10s; 
 }
 .slideshow li:nth-child(3) { 
-  background-image: url(http://i.imgur.com/emvhOnb.jpg);
+  background-image: url(https://scontent-sea1-1.cdninstagram.com/t51.2885-15/s480x480/e35/c35.0.1010.1010/20065488_107063173214876_5217357766728876032_n.jpg?ig_cache_key=MTU1OTY5MTIwNDkwNDI0MzIzNw%3D%3D.2.c);
   animation-delay: 20s; 
 }
 .slideshow li:nth-child(4) { 
-  background-image: url(http://i.imgur.com/2LSMCmJ.jpg);
+  background-image: url(https://scontent-sea1-1.cdninstagram.com/t51.2885-15/s480x480/e35/19985460_365815887168792_4732405231151742976_n.jpg?ig_cache_key=MTU1OTY5NTA2NTg0NTAxODc3OA%3D%3D.2);
   animation-delay: 30s; 
 }
 .slideshow li:nth-child(5) { 
-  background-image: url(http://i.imgur.com/TVGe0Ef.jpg);
+  background-image: url(https://scontent-mia3-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/14350488_610460995830498_527624369_n.jpg);
   animation-delay: 40s; 
 }
 
